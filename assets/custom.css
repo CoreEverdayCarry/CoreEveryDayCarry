@@ -1,0 +1,129 @@
+/* Core Everyday Carry — Custom Styles */
+
+/* ── Base ── */
+.skip-to-content-link { display: none !important; }
+:root { --core-edc-transition: 0.2s ease; }
+
+/* ── Buttons ── */
+.button, [data-style-class='button'] {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  transition: background-color var(--core-edc-transition),
+              color var(--core-edc-transition),
+              border-color var(--core-edc-transition);
+}
+.button:hover { transform: none; }
+a { transition: opacity var(--core-edc-transition); }
+
+/* ── Headings ── */
+h1, h2, h3, h4, h5, h6 { letter-spacing: -0.01em; }
+h1 { font-size: clamp(2.5rem, 6vw, 5rem); font-weight: 800; line-height: 1.05; }
+h2 { font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 800; line-height: 1.1; }
+@media (max-width: 767px) {
+  h1 { font-size: clamp(1.8rem, 8vw, 2.5rem); }
+  h2 { font-size: clamp(1.5rem, 6vw, 2rem); }
+}
+
+/* ── Product cards ── */
+.product-card { transition: transform var(--core-edc-transition); }
+.product-card:hover { transform: translateY(-2px); }
+.section--page-width { max-width: 1280px; margin-left: auto; margin-right: auto; }
+
+/* ── Trust Badges ── */
+.core-trust-badges {
+  list-style: none;
+  margin: 8px 0;
+  padding: 20px 0;
+  display: flex;
+  gap: 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+.core-trust-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  flex: 1;
+  text-align: center;
+  padding: 6px 4px;
+  border-right: 1px solid var(--color-border);
+}
+.core-trust-badge:last-child { border-right: none; }
+.core-trust-badge svg { opacity: 0.6; flex-shrink: 0; }
+.core-trust-badge span {
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  line-height: 1.25;
+  color: var(--color-foreground);
+  opacity: 0.65;
+  display: block;
+  max-width: 60px;
+}
+@media (max-width: 480px) {
+  .core-trust-badge span { font-size: 0.55rem; max-width: 52px; }
+  .core-trust-badge svg { width: 18px; height: 18px; }
+}
+
+/* ── Feature Highlight Section ── */
+.core-feature-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 32px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.core-feature-bullet {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.core-feature-bullet svg { flex-shrink: 0; margin-top: 2px; }
+.core-feature-bullet-text strong {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 4px;
+}
+.core-feature-bullet-text p {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin: 0;
+  line-height: 1.5;
+}
+.core-feature-quote {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 900;
+  line-height: 1.05;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+.core-caption-title {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 32px 48px 6px;
+  margin: 0;
+}
+.core-caption-body {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  opacity: 0.8;
+  padding: 0 48px 32px;
+  margin: 0;
+}
+
+/* ── Media radius ── */
+.media-with-content__media,
+.media-with-content__media img { border-radius: 12px; overflow: hidden; }
+.media-with-content__media { overflow: hidden; }
+.product-media__wrapper,
+.product-media { border-radius: 12px; overflow: hidden; }
