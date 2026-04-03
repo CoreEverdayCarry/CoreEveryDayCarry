@@ -170,7 +170,7 @@
             "origin_body": {
               "type": "text",
               "settings": {
-                "text": "<p>Core EDC was born from a simple frustration: why did premium everyday carry gear always come with a premium price tag? We believed \u2014 and still believe \u2014 that compact, durable, and thoughtfully engineered carry essentials should be accessible to everyone.<\/p><p>From wallets and key organizers to multitools and flashlights, every product in our lineup is designed to solve a real carry problem without breaking the bank. This is CORE: Class. Original. Reflects. Effective.<\/p>",
+                "text": "<p>Core EDC was born from a simple frustration: why did premium everyday carry gear always come with a premium price tag? We believed \u2014 and still believe \u2014 that compact, durable, and thoughtfully engineered carry essentials should be accessible to everyone.<\/p>",
                 "width": "100%",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -191,9 +191,34 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "origin_body_2": {
+              "type": "text",
+              "settings": {
+                "text": "<p>From wallets and key organizers to multitools and flashlights, every product in our lineup is designed to solve a real carry problem without breaking the bank. This is CORE: Class. Original. Reflects. Effective.<\/p>",
+                "width": "100%",
+                "max_width": "narrow",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
-          "block_order": ["origin_eyebrow", "origin_heading", "origin_body"]
+          "block_order": ["origin_eyebrow", "origin_heading", "origin_body", "origin_body_2"]
         }
       },
       "block_order": ["media", "content"],
@@ -239,7 +264,7 @@
         "core_c": {
           "type": "text",
           "settings": {
-            "text": "<h3>C<\/h3><p><strong>Class<\/strong><br\/>Everything we make carries itself with precision and purpose. No shortcuts. No compromise on craftsmanship.<\/p>",
+            "text": "<h3>C<\/h3>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -255,6 +280,31 @@
             "background_color": "#00000026",
             "corner_radius": 0,
             "padding-block-start": 24,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "core_c_body": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Class<\/strong><br\/>Everything we make carries itself with precision and purpose. No shortcuts. No compromise on craftsmanship.<\/p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
@@ -264,7 +314,7 @@
         "core_o": {
           "type": "text",
           "settings": {
-            "text": "<h3>O<\/h3><p><strong>Original<\/strong><br\/>Every Core product is designed from the ground up \u2014 not copied, not compromised. Purpose-driven design for real people.<\/p>",
+            "text": "<h3>O<\/h3>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -280,6 +330,31 @@
             "background_color": "#00000026",
             "corner_radius": 0,
             "padding-block-start": 24,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "core_o_body": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Original<\/strong><br\/>Every Core product is designed from the ground up \u2014 not copied, not compromised. Purpose-driven design for real people.<\/p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
@@ -289,7 +364,7 @@
         "core_r": {
           "type": "text",
           "settings": {
-            "text": "<h3>R<\/h3><p><strong>Reflects<\/strong><br\/>Your carry reflects who you are. Core EDC reflects the person who values quality, practicality, and understated style.<\/p>",
+            "text": "<h3>R<\/h3>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -311,10 +386,35 @@
           },
           "blocks": {}
         },
+        "core_r_body": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Reflects<\/strong><br\/>Your carry reflects who you are. Core EDC reflects the person who values quality, practicality, and understated style.<\/p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "core_e": {
           "type": "text",
           "settings": {
-            "text": "<h3>E<\/h3><p><strong>Effective<\/strong><br\/>Our products work. Simply, reliably, every day. Because tools that fail you aren\u2019t tools at all.<\/p>",
+            "text": "<h3>E<\/h3>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -335,9 +435,34 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "core_e_body": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Effective<\/strong><br\/>Our products work. Simply, reliably, every day. Because tools that fail you aren\u2019t tools at all.<\/p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
-      "block_order": ["core_eyebrow", "core_c", "core_o", "core_r", "core_e"],
+      "block_order": ["core_eyebrow", "core_c", "core_c_body", "core_o", "core_o_body", "core_r", "core_r_body", "core_e", "core_e_body"],
       "name": "CORE Meaning",
       "settings": {
         "content_direction": "column",
