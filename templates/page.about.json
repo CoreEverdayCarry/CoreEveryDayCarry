@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "about_hero": {
@@ -6,7 +15,7 @@
         "about_eyebrow": {
           "type": "text",
           "settings": {
-            "text": "<p>Our Story<\/p>",
+            "text": "<p>Our Story</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "center",
@@ -31,7 +40,7 @@
         "about_heading": {
           "type": "text",
           "settings": {
-            "text": "<h1>Built for Everyone. Priced for All.<\/h1>",
+            "text": "<h1>Built for Everyone. Priced for All.</h1>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "center",
@@ -56,7 +65,7 @@
         "about_sub": {
           "type": "text",
           "settings": {
-            "text": "<p>Premium everyday carry gear shouldn\u2019t cost a premium price.<\/p>",
+            "text": "<p>Premium everyday carry gear shouldn’t cost a premium price.</p>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "center",
@@ -79,15 +88,19 @@
           "blocks": {}
         }
       },
-      "block_order": ["about_eyebrow", "about_heading", "about_sub"],
+      "block_order": [
+        "about_eyebrow",
+        "about_heading",
+        "about_sub"
+      ],
       "settings": {
         "media_type_1": "image",
-        "image_1": "shopify:\/\/shop_images\/header_3.0.png",
-        "section_width": "full-width",
-        "section_height": "large",
+        "image_1": "shopify://shop_images/header_3.0.png",
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 16,
+        "section_width": "full-width",
+        "section_height": "large",
         "color_scheme": "scheme-6",
         "toggle_overlay": true,
         "overlay_color": "#000000bb",
@@ -105,7 +118,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify:\/\/shop_images\/Website_hero_banner_for_brand_1675fc0b3b.jpg"
+            "image": "shopify://shop_images/Website_hero_banner_for_brand_1675fc0b3b.jpg"
           },
           "blocks": {}
         },
@@ -120,7 +133,7 @@
             "origin_eyebrow": {
               "type": "text",
               "settings": {
-                "text": "<p>Where It All Started<\/p>",
+                "text": "<p>Where It All Started</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -145,7 +158,7 @@
             "origin_heading": {
               "type": "text",
               "settings": {
-                "text": "<h2>The Idea That Started Core EDC<\/h2>",
+                "text": "<h2>The Idea That Started Core EDC</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -170,7 +183,7 @@
             "origin_body": {
               "type": "text",
               "settings": {
-                "text": "<p>Core EDC was born from a simple frustration: why did premium everyday carry gear always come with a premium price tag? We believed \u2014 and still believe \u2014 that compact, durable, and thoughtfully engineered carry essentials should be accessible to everyone.<\/p>",
+                "text": "<p>Core EDC was born from a simple frustration: why did premium everyday carry gear always come with a premium price tag? We believed — and still believe — that compact, durable, and thoughtfully engineered carry essentials should be accessible to everyone.</p><p>From wallets and key organizers to multitools and flashlights, every product in our lineup is designed to solve a real carry problem without breaking the bank. This is CORE: Class. Original. Reflects. Effective.</p>",
                 "width": "100%",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -191,42 +204,20 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "origin_body_2": {
-              "type": "text",
-              "settings": {
-                "text": "<p>From wallets and key organizers to multitools and flashlights, every product in our lineup is designed to solve a real carry problem without breaking the bank. This is CORE: Class. Original. Reflects. Effective.<\/p>",
-                "width": "100%",
-                "max_width": "narrow",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             }
           },
-          "block_order": ["origin_eyebrow", "origin_heading", "origin_body", "origin_body_2"]
+          "block_order": [
+            "origin_eyebrow",
+            "origin_heading",
+            "origin_body"
+          ]
         }
       },
-      "block_order": ["media", "content"],
       "settings": {
-        "section_width": "page-width",
         "media_position": "right",
         "media_width": "medium",
         "media_height": "60svh",
+        "section_width": "page-width",
         "extend_media": false,
         "color_scheme": "scheme-1",
         "padding-block-start": 80,
@@ -239,7 +230,7 @@
         "core_eyebrow": {
           "type": "text",
           "settings": {
-            "text": "<p>What C.O.R.E. Means<\/p>",
+            "text": "<p>What C.O.R.E. Means</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "center",
@@ -264,7 +255,7 @@
         "core_c": {
           "type": "text",
           "settings": {
-            "text": "<h3>C<\/h3>",
+            "text": "<h3>C</h3><p><strong>Class</strong><br/>Everything we make carries itself with precision and purpose. No shortcuts. No compromise on craftsmanship.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -280,31 +271,6 @@
             "background_color": "#00000026",
             "corner_radius": 0,
             "padding-block-start": 24,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "core_c_body": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Class<\/strong><br\/>Everything we make carries itself with precision and purpose. No shortcuts. No compromise on craftsmanship.<\/p>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
@@ -314,7 +280,7 @@
         "core_o": {
           "type": "text",
           "settings": {
-            "text": "<h3>O<\/h3>",
+            "text": "<h3>O</h3><p><strong>Original</strong><br/>Every Core product is designed from the ground up — not copied, not compromised. Purpose-driven design for real people.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -330,31 +296,6 @@
             "background_color": "#00000026",
             "corner_radius": 0,
             "padding-block-start": 24,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "core_o_body": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Original<\/strong><br\/>Every Core product is designed from the ground up \u2014 not copied, not compromised. Purpose-driven design for real people.<\/p>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
@@ -364,7 +305,7 @@
         "core_r": {
           "type": "text",
           "settings": {
-            "text": "<h3>R<\/h3>",
+            "text": "<h3>R</h3><p><strong>Reflects</strong><br/>Your carry reflects who you are. Core EDC reflects the person who values quality, practicality, and understated style.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -380,31 +321,6 @@
             "background_color": "#00000026",
             "corner_radius": 0,
             "padding-block-start": 24,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "core_r_body": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Reflects<\/strong><br\/>Your carry reflects who you are. Core EDC reflects the person who values quality, practicality, and understated style.<\/p>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
@@ -414,7 +330,7 @@
         "core_e": {
           "type": "text",
           "settings": {
-            "text": "<h3>E<\/h3>",
+            "text": "<h3>E</h3><p><strong>Effective</strong><br/>Our products work. Simply, reliably, every day. Because tools that fail you aren’t tools at all.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "left",
@@ -435,34 +351,15 @@
             "padding-inline-end": 0
           },
           "blocks": {}
-        },
-        "core_e_body": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Effective<\/strong><br\/>Our products work. Simply, reliably, every day. Because tools that fail you aren\u2019t tools at all.<\/p>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
         }
       },
-      "block_order": ["core_eyebrow", "core_c", "core_c_body", "core_o", "core_o_body", "core_r", "core_r_body", "core_e", "core_e_body"],
+      "block_order": [
+        "core_eyebrow",
+        "core_c",
+        "core_o",
+        "core_r",
+        "core_e"
+      ],
       "name": "CORE Meaning",
       "settings": {
         "content_direction": "column",
@@ -498,7 +395,7 @@
         "mission_quote": {
           "type": "text",
           "settings": {
-            "text": "<h2>\u201cNot just products, but great solutions to your E.D.C.\u201d<\/h2>",
+            "text": "<h2>“Not just products, but great solutions to your E.D.C.”</h2>",
             "width": "100%",
             "max_width": "narrow",
             "alignment": "center",
@@ -523,7 +420,7 @@
         "mission_attr": {
           "type": "text",
           "settings": {
-            "text": "<p>\u2014 Core Everyday Carry<\/p>",
+            "text": "<p>— Core Everyday Carry</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "center",
@@ -549,7 +446,7 @@
           "type": "button",
           "settings": {
             "label": "Shop the Collection",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button",
             "width": "fit-content",
@@ -560,7 +457,11 @@
           "blocks": {}
         }
       },
-      "block_order": ["mission_quote", "mission_attr", "mission_button"],
+      "block_order": [
+        "mission_quote",
+        "mission_attr",
+        "mission_button"
+      ],
       "name": "Mission Statement",
       "settings": {
         "content_direction": "column",
@@ -591,5 +492,10 @@
       }
     }
   },
-  "order": ["about_hero", "brand_origin", "core_meaning", "mission_statement"]
+  "order": [
+    "about_hero",
+    "brand_origin",
+    "core_meaning",
+    "mission_statement"
+  ]
 }

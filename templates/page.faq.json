@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "faq_hero": {
@@ -167,57 +176,7 @@
                 "faq_what_is_text": {
                   "type": "text",
                   "settings": {
-                    "text": "<p><strong>CORE<\/strong> stands for:<\/p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "faq_what_is_list": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<ul><li><strong>C \u2013 Class<\/strong> \u2014 Everything we make carries itself with precision and purpose.<\/li><li><strong>O \u2013 Original<\/strong> \u2014 Purpose-driven design, not copies.<\/li><li><strong>R \u2013 Reflects<\/strong> \u2014 Your carry reflects who you are.<\/li><li><strong>E \u2013 Effective<\/strong> \u2014 Our products work. Simply, reliably, every day.<\/li><\/ul>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "faq_what_is_footer": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>We don\u2019t just sell products \u2014 <strong>we create great solutions to your E.D.C. needs.<\/strong><\/p>",
+                    "text": "<p><strong>CORE<\/strong> stands for:<\/p><ul><li><strong>C \u2013 Class<\/strong> \u2014 Everything we make carries itself with precision and purpose.<\/li><li><strong>O \u2013 Original<\/strong> \u2014 Purpose-driven design, not copies.<\/li><li><strong>R \u2013 Reflects<\/strong> \u2014 Your carry reflects who you are.<\/li><li><strong>E \u2013 Effective<\/strong> \u2014 Our products work. Simply, reliably, every day.<\/li><\/ul><p>We don\u2019t just sell products \u2014 <strong>we create great solutions to your E.D.C. needs.<\/strong><\/p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -240,7 +199,7 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["faq_what_is_text", "faq_what_is_list", "faq_what_is_footer"]
+              "block_order": ["faq_what_is_text"]
             },
             "faq_slogan": {
               "type": "_accordion-row",
@@ -254,57 +213,7 @@
                 "faq_slogan_text": {
                   "type": "text",
                   "settings": {
-                    "text": "<p><strong>\u201cNot just products, but great solutions to your E.D.C.\u201d<\/strong><\/p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "faq_slogan_body": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>This means every Core product is designed with <strong>purpose<\/strong>, solving real problems you face in everyday carry. We focus on:<\/p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "faq_slogan_list": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<ul><li>Effective, functional design<\/li><li>Reflecting original class<\/li><li>Simple, smart solutions at accessible prices<\/li><\/ul>",
+                    "text": "<p><strong>\u201cNot just products, but great solutions to your E.D.C.\u201d<\/strong><\/p><p>This means every Core product is designed with <strong>purpose<\/strong>, solving real problems you face in everyday carry. We focus on:<\/p><ul><li>Effective, functional design<\/li><li>Reflecting original class<\/li><li>Simple, smart solutions at accessible prices<\/li><\/ul>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -327,7 +236,7 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["faq_slogan_text", "faq_slogan_body", "faq_slogan_list"]
+              "block_order": ["faq_slogan_text"]
             }
           },
           "block_order": ["faq_what_is", "faq_slogan"]
