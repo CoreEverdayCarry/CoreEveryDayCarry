@@ -1,64 +1,23 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero_coredc": {
       "type": "hero",
       "blocks": {
-        "text_eyebrow": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Core Everyday Carry<\/p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h6",
-            "font": "var(--font-body--family)",
-            "font_size": "0.75rem",
-            "line_height": "normal",
-            "letter_spacing": "0.25em",
-            "case": "uppercase",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 12,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "text_heading": {
-          "type": "text",
-          "settings": {
-            "text": "<h1>The Greatest Solutions to Your Everyday Carry \u2014 Built for Everyone, Priced for All<\/h1>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h1",
-            "font": "var(--font-heading--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
         "button_shop": {
           "type": "button",
           "name": "t:names.button",
           "settings": {
             "label": "Shop Now",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button",
             "width": "fit-content",
@@ -69,20 +28,37 @@
           "blocks": {}
         }
       },
-      "block_order": ["text_eyebrow", "text_heading", "button_shop"],
+      "block_order": [
+        "button_shop"
+      ],
       "settings": {
         "media_type_1": "image",
-        "image_1": "shopify:\/\/shop_images\/Website_hero_banner_for_brand_1675fc0b3b.jpg",
-        "section_width": "full-width",
-        "section_height": "full-screen",
+        "image_1": "shopify://shop_images/Website_hero_banner_for_brand_1675fc0b3b.jpg",
+        "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 20,
+        "section_width": "full-width",
+        "section_height": "full-screen",
+        "section_height_custom": 50,
         "color_scheme": "scheme-6",
         "toggle_overlay": true,
         "overlay_color": "#00000066",
         "overlay_style": "solid",
         "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
         "padding-block-start": 0,
         "padding-block-end": 0
       }
@@ -93,7 +69,7 @@
         "feature_1": {
           "type": "text",
           "settings": {
-            "text": "<p>\u2192 Free Shipping Over $50<\/p>",
+            "text": "<p>→ Free Shipping Over $50</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "center",
@@ -129,7 +105,7 @@
         "feature_2": {
           "type": "text",
           "settings": {
-            "text": "<p>\u2192 14-Day Easy Returns<\/p>",
+            "text": "<p>→ 14-Day Easy Returns</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "center",
@@ -165,7 +141,7 @@
         "feature_3": {
           "type": "text",
           "settings": {
-            "text": "<p>\u2192 Premium Quality, Real Price<\/p>",
+            "text": "<p>→ Premium Quality, Real Price</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "center",
@@ -188,7 +164,13 @@
           "blocks": {}
         }
       },
-      "block_order": ["feature_1", "feature_divider_1", "feature_2", "feature_divider_2", "feature_3"],
+      "block_order": [
+        "feature_1",
+        "feature_divider_1",
+        "feature_2",
+        "feature_divider_2",
+        "feature_3"
+      ],
       "name": "Features Strip",
       "settings": {
         "content_direction": "row",
@@ -259,7 +241,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<p>Featured Products<\/p>",
+                "text": "<p>Featured Products</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -296,7 +278,10 @@
               "blocks": {}
             }
           },
-          "block_order": ["product_list_text_YFtzcL", "product_list_button_MWeP9V"]
+          "block_order": [
+            "product_list_text_YFtzcL",
+            "product_list_button_MWeP9V"
+          ]
         },
         "static-product-card": {
           "type": "_product-card",
@@ -381,7 +366,11 @@
               "blocks": {}
             }
           },
-          "block_order": ["product_card_gallery_677WP3", "product_title_YXxMTj", "price_JQzVV4"]
+          "block_order": [
+            "product_card_gallery_677WP3",
+            "product_title_YXxMTj",
+            "price_JQzVV4"
+          ]
         }
       },
       "name": "Featured Products",
@@ -413,7 +402,12 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify:\/\/shop_images\/header_3.0.png"
+            "image": "shopify://shop_images/header_3.0.png",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false,
+            "image_position": "cover",
+            "video_position": "cover"
           },
           "blocks": {}
         },
@@ -422,14 +416,15 @@
           "static": true,
           "settings": {
             "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "space-between"
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 24
           },
           "blocks": {
             "caption": {
               "type": "text",
               "name": "t:names.caption",
               "settings": {
-                "text": "<p>OUR STORY<\/p>",
+                "text": "<p>OUR STORY</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -477,6 +472,13 @@
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "link": "",
+                "open_in_new_tab": false,
+                "placeholder": "",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
@@ -487,7 +489,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Built for Everyone. Priced for All.<\/h2>",
+                    "text": "<h2>Built for Everyone. Priced for All.</h2>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -512,7 +514,7 @@
                 "body": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Core EDC was founded on a simple belief: premium everyday carry gear shouldn\u2019t cost a premium price. We design compact, durable, and thoughtfully engineered carry essentials \u2014 from wallets and multitools to flashlights and key organizers \u2014 so that everyone can carry smarter, every single day.<\/p>",
+                    "text": "<p>Core EDC was founded on a simple belief: premium everyday carry gear shouldn’t cost a premium price. We design compact, durable, and thoughtfully engineered carry essentials — from wallets and multitools to flashlights and key organizers — so that everyone can carry smarter, every single day.</p>",
                     "width": "100%",
                     "max_width": "narrow",
                     "alignment": "left",
@@ -535,13 +537,16 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["heading", "body"]
+              "block_order": [
+                "heading",
+                "body"
+              ]
             },
             "button_story": {
               "type": "button",
               "settings": {
                 "label": "Shop the Collection",
-                "link": "shopify:\/\/collections\/all",
+                "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "link",
                 "width": "fit-content",
@@ -552,230 +557,29 @@
               "blocks": {}
             }
           },
-          "block_order": ["caption", "group_content", "button_story"]
+          "block_order": [
+            "caption",
+            "group_content",
+            "button_story"
+          ]
         }
       },
-      "block_order": ["media", "content"],
       "settings": {
-        "section_width": "page-width",
         "media_position": "left",
         "media_width": "medium",
         "media_height": "60svh",
+        "section_width": "page-width",
         "extend_media": false,
         "color_scheme": "scheme-2",
         "padding-block-start": 80,
         "padding-block-end": 80
       }
-    },
-    "why_coredc": {
-      "type": "section",
-      "blocks": {
-        "why_eyebrow": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Why Core EDC<\/p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h6",
-            "font": "var(--font-body--family)",
-            "font_size": "0.75rem",
-            "line_height": "normal",
-            "letter_spacing": "0.2em",
-            "case": "uppercase",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "why_heading": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>Not Just Products \u2014 Great Solutions<\/h2>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h2",
-            "font": "var(--font-heading--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 12,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "why_sub": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Every product in our lineup is purpose-built to solve a real carry problem. Compact. Durable. Thoughtfully priced.<\/p>",
-            "width": "100%",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 16,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "why_button": {
-          "type": "button",
-          "settings": {
-            "label": "Explore All Products",
-            "link": "shopify:\/\/collections\/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": ["why_eyebrow", "why_heading", "why_sub", "why_button"],
-      "name": "Why Core EDC",
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "center",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-5",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 100,
-        "padding-block-end": 100
-      }
-    },
-    "cta_banner_coredc": {
-      "type": "hero",
-      "blocks": {
-        "cta_eyebrow": {
-          "type": "text",
-          "settings": {
-            "text": "<p>The Core Collection<\/p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h6",
-            "font": "var(--font-body--family)",
-            "font_size": "0.75rem",
-            "line_height": "normal",
-            "letter_spacing": "0.25em",
-            "case": "uppercase",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 12,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "cta_heading": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>Carry Smarter. Every Single Day.<\/h2>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "center",
-            "type_preset": "h2",
-            "font": "var(--font-heading--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "cta_button": {
-          "type": "button",
-          "settings": {
-            "label": "Shop All Products",
-            "link": "shopify:\/\/collections\/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": ["cta_eyebrow", "cta_heading", "cta_button"],
-      "settings": {
-        "media_type_1": "image",
-        "image_1": "shopify:\/\/shop_images\/Website_hero_banner_for_brand_1675fc0b3b.jpg",
-        "section_width": "full-width",
-        "section_height": "medium",
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 24,
-        "color_scheme": "scheme-6",
-        "toggle_overlay": true,
-        "overlay_color": "#000000aa",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
     }
   },
-  "order": ["hero_coredc", "features_strip_coredc", "product_list_fa6P9H", "brand_story_coredc", "why_coredc", "cta_banner_coredc"]
+  "order": [
+    "hero_coredc",
+    "features_strip_coredc",
+    "product_list_fa6P9H",
+    "brand_story_coredc"
+  ]
 }
